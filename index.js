@@ -15,3 +15,4 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/", router);
 app.listen("3000", () => console.log("server run on port 3000"));
+console.log("first")
